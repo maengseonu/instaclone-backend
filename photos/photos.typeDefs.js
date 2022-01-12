@@ -10,6 +10,7 @@ export default gql`
     hashtags: [Hashtag]
     createAt: String!
     updatedAt: String!
+    isMine: Boolean!
   }
   type Hashtag {
     id: Int!

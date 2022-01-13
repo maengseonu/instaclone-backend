@@ -1,7 +1,7 @@
 import { gql } from "apollo-server-express";
 
 export default gql`
-  type Query {
-    seeRooms: [Room]
+  type Mutation {
+    readMessage(id: Int!): MutationResponse!
   }
 `;
